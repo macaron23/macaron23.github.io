@@ -70,16 +70,11 @@ h3 {
 .sousmenu {
     display: none;
     position: absolute;
-    top: 101%;
+    top: 100%;
     left: -5px;
     background-color: #69a722;
     list-style: none;
     font-size: 15px;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
 }
 
 .nav-list>li:hover .sousmenu {
@@ -92,6 +87,7 @@ li {
     white-space: nowrap;
     width: 100%;
 }
+
 h4 {
    text-align: left; 
 }
