@@ -13,33 +13,37 @@
     <header>
         <h1>Bienvenue sur mon blog autour des randonnées/bivouacs au Grand-Veymont</h1>
         <nav class="nav-container">
-            <ul class="nav-list">
-                <li><a href="#Presentation">A propos</a></li>
-                <li>
-                    <a href="#" class="menulien">Randonnées</a>
-                    <ul class="sousmenu">
-                        <li>
-                            <a href="#Randonnee1">Pas de la Ville</a>
-                        </li>
-                        <li>
-                            <a href="#Randonnee2">Pas des Chattons</a>
-                        </li>
-                        <li>
-                            <a href="#Randonnee3">Sommet</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+            <label class="labelburger" for="toggle">&#8801;</label>
+            <input type="checkbox" id="toggle">
+            <div class="main_pages">
+                <ul class="nav-list">
+                    <li><a href="#Presentation">A propos</a></li>
+                    <li>
+                        <a href="#" class="menulien">Randonnées</a>
+                        <ul class="sousmenu">
+                            <li>
+                                <a href="#Randonnee1">Pas de la Ville</a>
+                            </li>
+                            <li>
+                                <a href="#Randonnee2">Pas des Chattons</a>
+                            </li>
+                            <li>
+                                <a href="#Randonnee3">Sommet</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <section id="photoVeymont">
         <h2>En route vers le Grand-Veymont....</h2>
     </section>
-    <section >
-        <h3>Présentation</h3>
-        <p id="Presentation">
+    <section>
+        <h3 id="Presentation">Présentation</h3>
+        <p >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis aliquam tempora consectetur,
             suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
             dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
@@ -55,17 +59,28 @@
             <h4>Pas de la Ville</h4>
             <div class="flex-container">
                 <div>
-                    <img src="Photos_projet1\Pas de la ville\IMG_20220725_092830.jpg" alt="" height="300" width="500" />
+                    <img src="Photos_projet1\Pas de la ville\IMG_20220725_092830.jpg" alt="" height="300" width="500">
                 </div>
 
                 <div>
-                    <img src="Photos_projet1\Pas de la ville\IMG_20220725_101736.jpg" alt="" height="300" width="500" />
+                    <img src="Photos_projet1\Pas de la ville\IMG_20220725_101736.jpg" alt="" height="300" width="500">
                 </div>
                 <div>
                     <img src="Photos_projet1\Pas de la ville\IMG_20220725_101748 (1).jpg" alt="" height="300"
-                        width="500" />
+                        width="500">
                 </div>
             </div>
+            <p class="texte_rando">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!
+            </p>
 
         </article>
 
@@ -75,18 +90,31 @@
             <div class="flex-container">
                 <div>
                     <img src="Photos_projet1\Pas des chattons\PANO_20220728_120408.jpg" alt="" height="300"
-                        width="500" />
+                        width="500">
                 </div>
 
                 <div>
                     <img src="Photos_projet1\Pas des chattons\PANO_20220728_144909.jpg" alt="" height="300"
-                        width="500" />
+                        width="500">
                 </div>
                 <div>
                     <img src="Photos_projet1\Pas des chattons\IMG_20220727_170432.jpg" alt="" height="300"
-                        width="500" />
+                        width="500">
                 </div>
             </div>
+
+            <p class="texte_rando">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!
+            </p>
+
 
         </article>
 
@@ -94,20 +122,49 @@
             <h4>Sommet</h4>
             <div class="flex-container">
                 <div>
-                    <img src="Photos_projet1\sommet\IMG_20220728_122458.jpg" alt="" height="300" width="500" />
+                    <img src="Photos_projet1\sommet\IMG_20220728_122458.jpg" alt="" height="300" width="500">
                 </div>
 
                 <div>
-                    <img src="Photos_projet1\sommet\IMG_20220728_122907.jpg" alt="" height="300" width="500" />
+                    <img src="Photos_projet1\sommet\IMG_20220728_122907.jpg" alt="" height="300" width="500">
                 </div>
                 <div>
-                    <img src="Photos_projet1\sommet\IMG_20220728_123032 (1).jpg" alt="" height="300" width="500" />
+                    <img src="Photos_projet1\sommet\IMG_20220728_123032 (1).jpg" alt="" height="300" width="500">
                 </div>
             </div>
-        </article>
 
+            <p class="texte_rando">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                perspiciatis aliquam tempora consectetur,
+                suscipit dignissimos esse exercitationem perferendis numquam fuga aliquid possimus error? Quisquam aperiam
+                dolorem saepe. Illum, repellendus dicta!
+            </p>
+
+        </article>
     </section>
+    <section id="contact">
+        <h2>Contactez moi</h2>
+        <form id="contactForm">
+          <label for="name">Votre nom:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Votre email:</label><br>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="exemple@veymontmail.com"
+          ><br>
+          <label for="message">Votre message:</label><br>
+          <textarea id="message" name="message"></textarea>
+          <br><br >
+          <input type="submit" value="Envoyer">
+        </form>
+      </section>
     <script src="index.js"></script>
 </body>
-
 </html>

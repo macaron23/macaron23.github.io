@@ -6,6 +6,11 @@
 body {
     background-color: rgb(215, 241, 173);
     font-family: "Great Vibes", cursive;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 section {
@@ -44,7 +49,7 @@ a:hover {
 }
 
 #photoVeymont {
-    height: 650px;
+    height: 100%;
     background-image: url("Photos_projet1/veymont/DSC_0068_veymont.JPG");
     background-size: cover;
 }
@@ -99,8 +104,95 @@ h4 {
     text-align: left;
 }
 
-
 .flex-container {
     display: flex;
     justify-content: space-between;
+}
+
+.texte_rando {
+    text-align: left;
+}
+
+form {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 20px;
+    text-align: left;
+  }
+  
+  label {
+    line-height: 2;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  #message {
+    height: 200px;
+  }
+  
+  input[type="submit"] {
+    background: #283b63;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .labelburger, #toggle{
+    display: none;
+  }
+  
+  @media screen and (max-width:991px)
+  {
+    .main_pages {
+        display: none;
+        flex-direction: column;
+        /* background: #48435C; */
+        height: 220px;
+    }
+
+    .main_pages a {
+        width: 50%;
+    }
+
+    .labelburger {
+        display:flex;
+        width : 30px;
+        font-size: 40px;
+        cursor: pointer;
+        justify-content: left;
+        align-items: initial;
+        /* margin : 0 auto; */
+        color:gray;
+        }
+
+    .nav-list {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #toggle:checked  + .main_pages {
+        display: flex;  
+    }
+
+}
+
+ 
+
+/* /* @media screen and (min-width: 1600px) {
+    .flex-container {
+        
+        width: 1000px;
+    }
+} */
+
+ @media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+
+    }
 }
